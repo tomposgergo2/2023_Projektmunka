@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav div {
+    width: 50%;
+}
+
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItems p{
+    margin: 0 20px 0 20px;
+    font-size: 100%;
+}
+
+.navTitle{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.navTitle h1{
+    margin: 10px 0;
+}
