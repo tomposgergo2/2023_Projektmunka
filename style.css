@@ -1,11 +1,13 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin-left: 250px;
+    margin-right: 250px;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav {
     display: flex;
     justify-content: center;
+    background-color: burlywood;
+
 }
 nav div {
     width: 50%;
@@ -30,3 +32,20 @@ nav div {
 .navTitle h1{
     margin: 10px 0;
 }
+
+.container img{
+    width: 100%;
+}
+
+.navItems p:hover{
+    color: gray;
+    text-shadow: none;
+}
+
+.navItems p:hover{
+    color: white;
+    text-shadow: 2px 2px 2px white;
+    padding: 0 0 0 15px;
+}
+
+
