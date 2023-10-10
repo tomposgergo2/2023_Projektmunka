@@ -1,13 +1,19 @@
 body{
-    margin-left: 250px;
-    margin-right: 250px;
+    
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 nav {
     display: flex;
     justify-content: center;
-    background-color: burlywood;
+    background-color: rgb(32, 28, 28);
 
+}
+.navTitle img{
+    width: 30%;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 nav div {
     width: 50%;
@@ -33,19 +39,78 @@ nav div {
     margin: 10px 0;
 }
 
-.container img{
-    width: 100%;
+.services h1{
+    margin: 0 auto;
+    width: fit-content;
 }
 
-.navItems p:hover{
-    color: gray;
-    text-shadow: none;
+.services p{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.navItems p{
+    color: aliceblue;
 }
 
 .navItems p:hover{
     color: white;
-    text-shadow: 2px 2px 2px white;
-    padding: 0 0 0 15px;
+    font-size: larger;
+    padding: 0 0 0 5px;
 }
 
+.servicesCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20%;
+}
 
+.card{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(32, 28, 28);
+    border: 1px solid grey;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin: 15px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.card p{
+    margin: 0;
+}
+
+.card h3{
+    text-align: center;
+}
+.circle img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.attunes{
+    background-color: rgb(32, 28, 28);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 40% ;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    transition: 3s;
+    opacity: 0;
+}
+
+.card:hover .attunes{
+    opacity:100;
+}
